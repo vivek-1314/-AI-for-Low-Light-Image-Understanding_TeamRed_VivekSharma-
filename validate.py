@@ -97,7 +97,7 @@ with torch.no_grad():
                     torch.from_numpy(ti).permute(2,0,1).unsqueeze(0).to(device)
                 ).item()
             )
-            print("innter loop")
+            print("validating ")
 
 print("\n--- Validation Metrics ---")
 print(f"PSNR  >= 26.2 : {np.mean(psnr_list):.3f}")
