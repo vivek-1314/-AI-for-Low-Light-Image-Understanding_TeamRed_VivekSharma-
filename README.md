@@ -5,6 +5,10 @@ Overview
 This project focuses on low-light and underwater image enhancement using a Transformer-based architecture (Uformer).
 The goal is to improve image quality while meeting baseline evaluation metrics such as PSNR, SSIM, LPIPS, and UCIQE.
 
+sample output image
+<img width="778" height="388" alt="Screenshot 2026-02-07 050435" src="https://github.com/user-attachments/assets/e8c0b26a-63d5-45cf-8f87-41db5e6ef609" />
+
+
 🧠 Model Architecture
 Model Used: Uformer (U-shaped Transformer for Image Restoration)
 Input: RGB low-light / underwater images
